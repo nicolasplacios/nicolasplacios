@@ -13,7 +13,7 @@ Estudiante de Ingeniería Industrial (8vo semestre) en Universidad de Lima, espe
 
 ### 📊 Proyectos Destacados
 
-**[Modelo Predictivo de Churn - Regresión Logística](#)** - Predicción de abandono de clientes bancarios utilizando Machine Learning.
+🔬**[Modelo Predictivo de Churn - Regresión Logística](https://github.com/nicolasplacios/churn-prediction-logistic-regression)**🔬 - Predicción de abandono de clientes bancarios utilizando Machine Learning.
 
 ### 🎓 Formación
 - **Universidad de Lima** - Ingeniería Industrial (2022-2026)
@@ -21,7 +21,7 @@ Estudiante de Ingeniería Industrial (8vo semestre) en Universidad de Lima, espe
 
 ### 📫 Contacto
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](tu-linkedin-url)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-email@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nicolaspalaciosaguinaga@gmail.com)
 
 ---
 💡 *Actualmente buscando oportunidades en Supply Chain Management y Logística Portuaria en Perú*
