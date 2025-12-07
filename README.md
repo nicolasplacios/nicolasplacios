@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hola, soy Nicolás 👋
 
-<!--
-**nicolasplacios/nicolasplacios** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Industrial Engineer | Supply Chain Optimization | Data Analytics
 
-Here are some ideas to get you started:
+Estudiante de Ingeniería Industrial (8vo semestre) en Universidad de Lima, especializado en optimización de procesos logísticos y análisis de datos.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔧 Stack Técnico
+- **Análisis**: Python, SQL, Excel Avanzado
+- **Visualización**: Power BI
+- **ERP/Logística**: SAP MM
+- **Procesos**: Bizagi, Lean Management
+- **Otros**: HTML/CSS
+
+### 📊 Proyectos Destacados
+
+**[Modelo Predictivo de Churn - Regresión Logística](#)** - Predicción de abandono de clientes bancarios utilizando Machine Learning.
+
+### 🎓 Formación
+- **Universidad de Lima** - Ingeniería Industrial (2022-2026)
+- **Hochschule Esslingen, Alemania** - Exchange Program (2025)
+
+### 📫 Contacto
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](tu-linkedin-url)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-email@gmail.com)
+
+---
+💡 *Actualmente buscando oportunidades en Supply Chain Management y Logística Portuaria en Perú*
+```
