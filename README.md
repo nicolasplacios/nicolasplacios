@@ -20,7 +20,7 @@ Estudiante de Ingeniería Industrial (8vo semestre) en Universidad de Lima, espe
 - **Hochschule Esslingen, Alemania** - Exchange Program (2025)
 
 ### 📫 Contacto
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/nicolas-palacios-aguinaga-69b6b5238)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-palacios-aguinaga-69b6b5238?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKvVzcGiYROazt6cP9%2F9GLw%3D%3D)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nicolaspalaciosaguinaga@gmail.com)
 
 ---
