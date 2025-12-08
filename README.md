@@ -13,7 +13,7 @@ Estudiante de Ingeniería Industrial (8vo semestre) en Universidad de Lima, espe
 
 ### 📊 Proyectos Destacados
 
-🔬**[Modelo Predictivo de Churn - Regresión Logística]([main](https://github.com/nicolasplacios/prediction-logistic-regression.git))**🔬 - Predicción de abandono de clientes bancarios utilizando Machine Learning.
+🔬**[Modelo Predictivo de Churn - Regresión Logística](https://github.com/nicolasplacios/prediction-logistic-regression.git)**🔬 - Predicción de abandono de clientes bancarios utilizando Machine Learning.
 
 ### 🎓 Formación
 - **Universidad de Lima** - Ingeniería Industrial (2022-2026)
