@@ -25,4 +25,3 @@ Estudiante de Ingeniería Industrial (8vo semestre) en Universidad de Lima, espe
 
 ---
 💡 *Actualmente buscando oportunidades en Supply Chain Management y Logística Portuaria en Perú*
-```
