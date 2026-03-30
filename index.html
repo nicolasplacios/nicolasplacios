@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicolás Palacios — Automatización & Desarrollo Web</title>
+  <meta name="description" content="Servicios de automatización de tareas y creación de páginas web profesionales para empresas." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    code, .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <a class="nav-logo" data-page="home" href="#">
+      <div class="nav-logo-icon">NP</div>
+      Nicolás Palacios
+    </a>
+
+    <ul class="nav-links">
+      <li><a data-page="home" href="#">Inicio</a></li>
+      <li><a data-page="automation" href="#">Automatización</a></li>
+      <li><a data-page="webdev" href="#">Desarrollo Web</a></li>
+      <li><a data-scroll="contact" href="#contact" class="nav-cta">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================================================================== -->
+  <!-- HOME PAGE -->
+  <!-- ===================================================================== -->
+  <div id="home-page" class="page-section active">
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Disponible para proyectos
+        </div>
+        <h1 class="hero-name">Nicolás<br/>Palacios</h1>
+        <p class="hero-title">
+          Ingeniería de Procesos · <span>Automatización</span> · Desarrollo Web
+        </p>
+        <div class="hero-ctas">
+          <a href="#" class="btn-primary" data-navigate="automation">
+            Ver servicios
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="btn-secondary" data-scroll="contact">
+            Hablemos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-inner">
+        <!-- Photo -->
+        <div class="about-photo-wrapper reveal-left">
+          <div class="about-photo-frame">
+            <div class="about-photo-bg"></div>
+            <div class="about-photo-placeholder">
+              <!-- Replace src with your actual photo: <img src="assets/foto.jpg" alt="Nicolás Palacios" style="width:100%;height:100%;object-fit:cover;border-radius:26px;" /> -->
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span>Tu foto aquí</span>
+            </div>
+            <div class="about-photo-tag">
+              <div class="about-photo-tag-label">Basado en</div>
+              <div class="about-photo-tag-value">Lima, Perú 🇵🇪</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="about-text reveal-right">
+          <div class="section-label">Sobre mí</div>
+          <h2 class="section-title">
+            Ingeniería al servicio<br/>
+            de tu <span class="highlight">negocio</span>
+          </h2>
+          <p class="about-description">
+            Soy Ingeniero Industrial (Universidad de Lima) con experiencia internacional
+            en Alemania y especialización en optimización de procesos, análisis de datos
+            y automatización. Ayudo a empresas a eliminar tareas repetitivas y construir
+            presencia digital profesional.
+          </p>
+
+          <div class="about-skills">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">SAP MM</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">Excel Avanzado</span>
+            <span class="skill-tag">Lean Management</span>
+            <span class="skill-tag">Bizagi</span>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-number" data-count="8" data-suffix="°">0°</div>
+              <div class="stat-label">Semestre</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number" data-count="2" data-suffix="+">0+</div>
+              <div class="stat-label">Años exp.</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number" data-count="1" data-suffix=" país">0 país</div>
+              <div class="stat-label">Exchange int.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- SERVICES OVERVIEW -->
+    <section id="services">
+      <div class="services-bg-lines"></div>
+      <div class="services-inner">
+        <div class="services-header">
+          <div class="section-label reveal" style="justify-content:center;">Servicios</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            ¿Qué puedo hacer<br/>por tu empresa?
+          </h2>
+          <p class="services-description reveal reveal-delay-2">
+            Soluciones digitales concretas para empresas que quieren crecer,
+            ahorrar tiempo y destacar online.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Automation -->
+          <a class="service-card reveal reveal-delay-2" href="#" data-navigate="automation">
+            <div class="service-number font-mono">01</div>
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 17l10 5 10-5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 12l10 5 10-5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Automatización<br/>de Tareas</h3>
+            <p class="service-desc">
+              Eliminamos procesos manuales y repetitivos. Tus equipos se enfocan en lo que importa.
+            </p>
+            <div class="service-features">
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Bots de reportes automáticos
+              </div>
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Integración de sistemas y APIs
+              </div>
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Dashboards y alertas en tiempo real
+              </div>
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Automatización de Excel / Google Sheets
+              </div>
+            </div>
+            <div class="service-link">
+              Explorar servicio
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </a>
+
+          <!-- Card 2: Web Dev -->
+          <a class="service-card reveal reveal-delay-3" href="#" data-navigate="webdev">
+            <div class="service-number font-mono">02</div>
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="14" rx="2" stroke="white" stroke-width="1.5"/>
+                <path d="M8 21h8M12 17v4" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M7 8l2.5 2.5L7 13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11 13h4" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Creación de<br/>Páginas Web</h3>
+            <p class="service-desc">
+              Sitios profesionales, rápidos y modernos. Desde landing pages hasta tiendas online.
+            </p>
+            <div class="service-features">
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Landing pages de alta conversión
+              </div>
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Portafolios y sitios corporativos
+              </div>
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Diseño responsive (móvil/desktop)
+              </div>
+              <div class="service-feature">
+                <span class="service-feature-dot"></span>
+                Optimización SEO y velocidad
+              </div>
+            </div>
+            <div class="service-link">
+              Explorar servicio
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-bg"></div>
+      <div class="contact-inner">
+        <div class="section-label reveal" style="justify-content:center;">Contacto</div>
+        <h2 class="contact-title reveal reveal-delay-1">
+          ¿Tienes un proyecto<br/>en mente?
+        </h2>
+        <p class="contact-subtitle reveal reveal-delay-2">
+          Escríbeme y conversamos sobre cómo puedo ayudarte.
+          Sin compromisos, primera consulta gratis.
+        </p>
+
+        <div class="contact-cards reveal reveal-delay-2">
+          <a href="mailto:nicolaspalaciosaguinaga@gmail.com" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="4" width="20" height="16" rx="2" stroke="white" stroke-width="1.5"/>
+                <path d="M2 7l10 7 10-7" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="contact-card-label">Email</div>
+            <div class="contact-card-value">nicolaspalaciosaguinaga<br/>@gmail.com</div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nicolas-palacios-aguinaga-69b6b5238" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="4" stroke="white" stroke-width="1.5"/>
+                <path d="M7 10v7M7 7v.01" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M11 17v-4a2 2 0 014 0v4M11 10v7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-card-label">LinkedIn</div>
+            <div class="contact-card-value">Nicolas Palacios<br/>Aguinaga</div>
+          </a>
+
+          <a href="https://github.com/nicolasplacios" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-card-label">GitHub</div>
+            <div class="contact-card-value">@nicolasplacios</div>
+          </a>
+        </div>
+
+        <div class="contact-cta reveal reveal-delay-3">
+          <a href="mailto:nicolaspalaciosaguinaga@gmail.com" class="btn-primary">
+            Enviar mensaje
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>© 2025 Nicolás Palacios Aguinaga</span>
+      <ul class="footer-links">
+        <li><a data-page="home" href="#">Inicio</a></li>
+        <li><a data-page="automation" href="#">Automatización</a></li>
+        <li><a data-page="webdev" href="#">Desarrollo Web</a></li>
+      </ul>
+    </footer>
+
+  </div><!-- end home-page -->
+
+
+  <!-- ===================================================================== -->
+  <!-- AUTOMATION PAGE -->
+  <!-- ===================================================================== -->
+  <div id="automation-page" class="page-section">
+
+    <section id="automation">
+      <div class="page-hero">
+        <div class="section-label reveal" style="justify-content:center;">Servicio 01</div>
+        <h1 class="page-hero-title reveal reveal-delay-1">
+          <span style="background:linear-gradient(135deg,#fff 0%,#888 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">
+            Automatización<br/>de Tareas
+          </span>
+        </h1>
+        <p class="page-hero-subtitle reveal reveal-delay-2">
+          ¿Tu equipo pierde horas en copiar datos, generar reportes o actualizar hojas de cálculo?
+          Lo resolvemos con código.
+        </p>
+        <div class="reveal reveal-delay-3" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="mailto:nicolaspalaciosaguinaga@gmail.com" class="btn-primary">Solicitar cotización</a>
+          <a href="#" class="btn-secondary" data-page="home">← Volver al inicio</a>
+        </div>
+      </div>
+
+      <!-- Process -->
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <div class="process-step font-mono">01 — Diagnóstico</div>
+          <h3 class="process-title">Analizamos tu proceso</h3>
+          <p class="process-desc">Mapeamos las tareas repetitivas de tu empresa e identificamos las de mayor impacto para automatizar primero.</p>
+        </div>
+        <div class="process-card reveal reveal-delay-1">
+          <div class="process-step font-mono">02 — Desarrollo</div>
+          <h3 class="process-title">Construimos la solución</h3>
+          <p class="process-desc">Desarrollamos scripts, bots o flujos de trabajo a medida. Sin herramientas innecesarias, solo lo que tu negocio necesita.</p>
+        </div>
+        <div class="process-card reveal reveal-delay-2">
+          <div class="process-step font-mono">03 — Implementación</div>
+          <h3 class="process-title">Entregamos y capacitamos</h3>
+          <p class="process-desc">Desplegamos la solución en tu entorno y capacitamos a tu equipo. Soporte incluido en el primer mes.</p>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="tools-section">
+        <h2 class="tools-title reveal">Herramientas que utilizamos</h2>
+        <div class="tools-grid">
+          <div class="tool-item reveal">
+            <div class="tool-icon">🐍</div>
+            <div class="tool-name">Python</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-1">
+            <div class="tool-icon">📊</div>
+            <div class="tool-name">Excel / VBA</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-2">
+            <div class="tool-icon">📋</div>
+            <div class="tool-name">Google Sheets</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-3">
+            <div class="tool-icon">🗄️</div>
+            <div class="tool-name">SQL</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-1">
+            <div class="tool-icon">📈</div>
+            <div class="tool-name">Power BI</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-2">
+            <div class="tool-icon">🔗</div>
+            <div class="tool-name">APIs REST</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-3">
+            <div class="tool-icon">☁️</div>
+            <div class="tool-name">Google Apps Script</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-4">
+            <div class="tool-icon">⚡</div>
+            <div class="tool-name">Make / Zapier</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div style="text-align:center;padding:0 48px 60px;" class="reveal">
+        <div style="background:var(--dark-2);border:1px solid rgba(255,255,255,0.06);border-radius:24px;padding:60px 48px;max-width:700px;margin:0 auto;">
+          <h3 style="font-size:1.8rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:16px;">¿Listo para automatizar?</h3>
+          <p style="color:var(--gray-3);margin-bottom:36px;line-height:1.7;">
+            Cuéntame qué proceso quieres optimizar. En menos de 24 horas te doy una respuesta.
+          </p>
+          <a href="mailto:nicolaspalaciosaguinaga@gmail.com" class="btn-primary">
+            Escribir ahora
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2025 Nicolás Palacios Aguinaga</span>
+      <ul class="footer-links">
+        <li><a data-page="home" href="#">Inicio</a></li>
+        <li><a data-page="automation" href="#">Automatización</a></li>
+        <li><a data-page="webdev" href="#">Desarrollo Web</a></li>
+      </ul>
+    </footer>
+  </div><!-- end automation-page -->
+
+
+  <!-- ===================================================================== -->
+  <!-- WEB DEV PAGE -->
+  <!-- ===================================================================== -->
+  <div id="webdev-page" class="page-section">
+
+    <section id="webdev">
+      <div class="page-hero">
+        <div class="section-label reveal" style="justify-content:center;">Servicio 02</div>
+        <h1 class="page-hero-title reveal reveal-delay-1">
+          <span style="background:linear-gradient(135deg,#fff 0%,#888 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">
+            Páginas Web<br/>Profesionales
+          </span>
+        </h1>
+        <p class="page-hero-subtitle reveal reveal-delay-2">
+          Tu negocio merece una presencia digital que genere confianza y atraiga clientes.
+          Diseño moderno, rápido y optimizado.
+        </p>
+        <div class="reveal reveal-delay-3" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="mailto:nicolaspalaciosaguinaga@gmail.com" class="btn-primary">Solicitar cotización</a>
+          <a href="#" class="btn-secondary" data-page="home">← Volver al inicio</a>
+        </div>
+      </div>
+
+      <!-- Process -->
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <div class="process-step font-mono">01 — Brief</div>
+          <h3 class="process-title">Entendemos tu marca</h3>
+          <p class="process-desc">Recopilamos tu identidad, objetivo y público. Sin esto, el mejor diseño no convierte.</p>
+        </div>
+        <div class="process-card reveal reveal-delay-1">
+          <div class="process-step font-mono">02 — Diseño</div>
+          <h3 class="process-title">Prototipo en días</h3>
+          <p class="process-desc">Presentamos un prototipo visual antes de programar. Tú apruebas cada detalle.</p>
+        </div>
+        <div class="process-card reveal reveal-delay-2">
+          <div class="process-step font-mono">03 — Entrega</div>
+          <h3 class="process-title">Online en tiempo récord</h3>
+          <p class="process-desc">Desplegamos tu sitio con dominio y hosting incluidos en la primera etapa. Listo para recibir clientes.</p>
+        </div>
+      </div>
+
+      <!-- Portfolio examples -->
+      <div class="portfolio-section">
+        <h2 class="tools-title reveal">Tipos de proyectos</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item reveal">
+            <div class="portfolio-preview">
+              <div class="portfolio-preview-lines"></div>
+              <div class="portfolio-type-badge">Landing Page</div>
+            </div>
+            <div class="portfolio-info">
+              <h4 class="portfolio-title">Páginas de conversión</h4>
+              <p class="portfolio-desc">Diseñadas para convertir visitantes en clientes. Formularios, CTAs y velocidad optimizada.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal reveal-delay-1">
+            <div class="portfolio-preview">
+              <div class="portfolio-preview-lines"></div>
+              <div class="portfolio-type-badge">Sitio Corporativo</div>
+            </div>
+            <div class="portfolio-info">
+              <h4 class="portfolio-title">Presencia empresarial</h4>
+              <p class="portfolio-desc">Sitios completos con quiénes somos, servicios, equipo y contacto. Profesionalismo desde el primer clic.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal reveal-delay-2">
+            <div class="portfolio-preview">
+              <div class="portfolio-preview-lines"></div>
+              <div class="portfolio-type-badge">Portafolio</div>
+            </div>
+            <div class="portfolio-info">
+              <h4 class="portfolio-title">Portafolios personales</h4>
+              <p class="portfolio-desc">Como este mismo sitio. Ideal para profesionales, freelancers y consultores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stack -->
+      <div class="tools-section">
+        <h2 class="tools-title reveal">Tecnologías</h2>
+        <div class="tools-grid">
+          <div class="tool-item reveal">
+            <div class="tool-icon">🌐</div>
+            <div class="tool-name">HTML5 / CSS3</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-1">
+            <div class="tool-icon">⚡</div>
+            <div class="tool-name">JavaScript</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-2">
+            <div class="tool-icon">🎨</div>
+            <div class="tool-name">Figma</div>
+          </div>
+          <div class="tool-item reveal reveal-delay-3">
+            <div class="tool-icon">🚀</div>
+            <div class="tool-name">GitHub Pages</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div style="text-align:center;padding:0 48px 60px;" class="reveal">
+        <div style="background:var(--dark-2);border:1px solid rgba(255,255,255,0.06);border-radius:24px;padding:60px 48px;max-width:700px;margin:0 auto;">
+          <h3 style="font-size:1.8rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:16px;">¿Quieres tu página web?</h3>
+          <p style="color:var(--gray-3);margin-bottom:36px;line-height:1.7;">
+            Cuéntame sobre tu proyecto. Respondo en menos de 24 horas con una propuesta inicial.
+          </p>
+          <a href="mailto:nicolaspalaciosaguinaga@gmail.com" class="btn-primary">
+            Empezar proyecto
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2025 Nicolás Palacios Aguinaga</span>
+      <ul class="footer-links">
+        <li><a data-page="home" href="#">Inicio</a></li>
+        <li><a data-page="automation" href="#">Automatización</a></li>
+        <li><a data-page="webdev" href="#">Desarrollo Web</a></li>
+      </ul>
+    </footer>
+  </div><!-- end webdev-page -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
